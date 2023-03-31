@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/python:3.11.2-slim-bullseye
+FROM public.ecr.aws/docker/library/python:3.10.10-slim
 ENV SAGEMAKER_SKLEARN_VERSION=1.2.2
 
 LABEL com.amazonaws.sagemaker.capabilities.accept-bind-to-port=true
